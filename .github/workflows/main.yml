@@ -4,6 +4,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  steps:
-  - name: first
-    run: echo "qqqq"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first
+        run: echo "qqqq"
