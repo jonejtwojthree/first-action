@@ -1,1 +1,9 @@
+name: echo
 
+on:
+  workflow_dispatch:
+
+jobs:
+  steps:
+  - name: first
+    run: echo "qqqq"
